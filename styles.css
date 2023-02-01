@@ -61,23 +61,47 @@ section{
 
 .Js{
     display: flex;
-    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     background-color: #222A44;
 }
 
+.js header{
+    margin: 0px;
+    color: gainsboro;
+}
+
+.nose{
+    color: gainsboro;
+    margin-bottom: 0px;
+}
+
 .calculadora{
-    margin: 3%;
-
+    margin-bottom: 2%;
 }
 
-.numeros{
-    text-align: center;
+.pantalla{
+    background-color: aliceblue; 
+    border-radius: 20px ;
+    max-width: 16rem;
+    height: 3rem;
+    margin-bottom: 1rem;
 }
 
+.pantalla p {
+    text-align: end;
+    width: 90%;
+    font-size: 25px ; 
+}
 
-
-
+.numeros input{
+  width:60px;
+  height: 60px;
+  font-size: 25px;
+  border-radius: 20px;
+  border-color: #222A44;
+}
 
 
 
