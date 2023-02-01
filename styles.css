@@ -1,0 +1,106 @@
+body{
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h1{
+    margin: 0%;
+}
+
+aside{
+    background-color: #222A44;
+    color: gainsboro;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px; 
+}
+
+section{
+    padding-left: 10px;
+    width: 70%;   
+}
+
+.ASD{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.IMG {
+    display: flex;
+    justify-content: center;
+}
+
+#Lol {
+    border-radius: 100%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+.Nombre {
+    margin-top: 1rem;
+}
+
+.Nombre h2{
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.Nombre h4 {
+    margin: 1px;
+}
+
+.kkk {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+.Js{
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    background-color: #222A44;
+}
+
+.calculadora{
+    margin: 3%;
+
+}
+
+.numeros{
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media (max-width: 1245px) {
+    .ASD{
+        flex-direction: column;
+    }
+
+    aside{
+        width: 100%;
+        border: 0px solid red;
+    }
+    .kkk{
+        justify-content: flex-start;
+    }
+    section{
+        width: 98%;
+        border: 0px solid red;
+    }
+}
+
+@media (max-width: 900px) {
+    body{
+        margin: 0px;
+    }
+}
